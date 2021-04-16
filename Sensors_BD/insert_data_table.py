@@ -29,7 +29,7 @@ add_data (35.3, 59)
 # usamos a função print para escrever uma entrada para os dados 	 
 print ("\nTodos os conteudos da tabela DHT_data:\n") 
 
-# definimos uma iteração com o loop for para caminhar por todas as linhas da tabela e escrevemos a linha
+# definimos uma iteração com o loop for para caminhar por todas as linhas da tabela e escrevemos cada linha
 
 for row in cur.execute('SELECT * FROM DHT_data'): 
 	print(row) 
